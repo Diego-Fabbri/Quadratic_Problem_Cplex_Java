@@ -6,11 +6,7 @@ import ilog.cplex.IloCplex;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
-/**
- *
- * @author diego
- */
-// NOTA: riproduciamo quanto fatto in: https://www.youtube.com/watch?v=Ro5-DjQibnk
+
 public class Main {
 
     public static void main(String[] args) throws IloException, FileNotFoundException {
