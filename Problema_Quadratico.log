@@ -1,0 +1,47 @@
+Number of nonzeros in lower triangle of Q = 2
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for factor of Q:
+  Rows in Factor            = 3
+  Integer space required    = 3
+  Total non-zeros in factor = 6
+  Total FP ops to factor    = 14
+Tried aggregator 1 time.
+Reduced QP has 5 rows, 6 columns, and 14 nonzeros.
+Reduced QP objective Q matrix has 3 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 9
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 5
+  Integer space required    = 5
+  Total non-zeros in factor = 15
+  Total FP ops to factor    = 55
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf          
+   0  1.0636929e+002  4.0119631e+004 3.00e+002 2.20e+001 4.02e+003
+   1 -4.2647339e+003  1.3830857e+004 8.95e+000 6.58e-001 1.20e+002
+   2 -5.7244038e+002  2.1778053e+003 6.66e-014 0.00e+000 1.75e-013
+   3 -1.3359320e+002  2.1366540e+002 2.66e-014 0.00e+000 2.66e-014
+   4 -1.5446636e+001  4.4803921e+001 3.55e-015 0.00e+000 8.66e-015
+   5  3.4390904e-001  7.1112812e+000 1.51e-014 0.00e+000 9.74e-015
+   6  1.9389541e+000  2.6972949e+000 4.00e-015 0.00e+000 2.55e-015
+   7  2.0140768e+000  2.1563147e+000 1.19e-014 0.00e+000 8.31e-016
+   8  2.0155916e+000  2.0388811e+000 1.14e-014 7.11e-015 1.50e-015
+   9  2.0156158e+000  2.0194824e+000 7.55e-015 7.11e-015 8.77e-016
+  10  2.0156165e+000  2.0162605e+000 7.88e-015 7.11e-015 1.71e-015
+  11  2.0156165e+000  2.0157238e+000 2.22e-016 0.00e+000 2.50e-015
+  12  2.0156165e+000  2.0156344e+000 7.77e-016 0.00e+000 2.23e-015
+  13  2.0156165e+000  2.0156195e+000 4.00e-015 7.11e-015 2.29e-015
+  14  2.0156165e+000  2.0156170e+000 8.10e-015 7.11e-015 1.32e-015
+  15  2.0156165e+000  2.0156166e+000 4.77e-015 0.00e+000 5.56e-016
+  16  2.0156165e+000  2.0156165e+000 9.10e-015 7.11e-015 2.01e-015
+Barrier time = 0.00 sec. (0.04 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.04 ticks)
+Il valore di funzione obiettivo e':  2.015616523289157
+Il valore della variabile  x1  e'  :0.13911493520482582
+Il valore della variabile  x2  e'  :0.5984654742056661
+Il valore della variabile  x3  e'  :0.8983957232479367
